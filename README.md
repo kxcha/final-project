@@ -25,13 +25,18 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 Save the hex file from https://makecode.microbit.org/. Drag the hex file into microbit. 
+Place an object (eg. paper box) 1 - 10 inches away from the ultrasonic sensor (note: ultrasonic sensor can detect 0.79 inches minimum). The micro servo should vibrate when the object is in this distance range. When the distance between sensor and object is more than 10 inches, the microbit screen would display a smiley face.
 
 ### Break down into end to end tests
-Place an object (eg. paper box) 1 - 10 inches away from the ultrasonic sensor (note: ultrasonic sensor can detect 0.79 inches minimum). The microservo should vibrate when the object is in this distance range. This is because 
+Test if the device can detect and display distance: place an object (eg. paper box) 1 - 10 inches away from the ultrasonic sensor (note: ultrasonic sensor can detect 0.79 inches at minimum). The microbit should display the distance between sensor and object in numberic value.
+![alt text](https://github.com/kxcha/final-project/blob/master/distance_sensing_test.png)
+
+Test if the distance in the range 1 - 10 inches between an object and ultrasonic sensor can trigger the micro servo to vibrate. hen the distance between sensor and object is more than 10 inches, the microbit screen would display a smiley face.
+![alt text](https://github.com/kxcha/final-project/blob/master/final_makecode.png)
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+The participant for this project is asked to navigate through a 52 inches wide and 296 inches long hallway, while being blindfolded.  Before the participant enters the hallway, he/she is asked to wear a wrist support attached with a distance sensing device attached to the left and right hand respectively. Each device is composed of a microbit, a ultrasonic sensor, a micro servo, and a 9V battery. The device is previously programed to trigger the micro servo to vibrate if the device is no more than 10 inches away from an object. As the device vibrate, participant knows he/she is getting too close to the wall and will manage to adjust his/ her distance from the wall while keep navigating forward in the hallway. The facilitator, myself, follow quietly behind the participant to ensure the participant does not bump into the wall. If the facilitator observe the participant is getting too close to the wall (eg. less than 4 inches away from the wall), facilitator will tap on participant’s shoulder as a signal for the participant to stop moving, and re-adjust participant’s position to continue navigating if necessary.
 
 ## Built With
 
