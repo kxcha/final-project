@@ -31,7 +31,7 @@ Place an object (eg. paper box) 1 - 10 inches away from the ultrasonic sensor (n
 Test if the device can detect and display distance: place an object (eg. paper box) 1 - 10 inches away from the ultrasonic sensor (note: ultrasonic sensor can detect 0.79 inches at minimum). The microbit should display the distance between sensor and object in numberic value.
 ![alt text](https://github.com/kxcha/final-project/blob/master/distance_sensing_test.png)
 
-Test if the distance in the range 1 - 10 inches between an object and ultrasonic sensor can trigger the micro servo to vibrate. hen the distance between sensor and object is more than 10 inches, the microbit screen would display a smiley face.
+Test if the distance in the range 1 - 10 inches between an object and ultrasonic sensor can trigger the micro servo to vibrate. When the distance between sensor and object is more than 10 inches, the microbit screen would display a smiley face.
 ![alt text](https://github.com/kxcha/final-project/blob/master/final_makecode.png)
 
 ## Deployment
@@ -51,11 +51,12 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* Code reference 1: https://makecode.microbit.org/v0/22449-66025-47572-42128
-* Code reference 2: http://bbs.yahboom.com/upload/forum.php?mod=viewthread&tid=1366
+* Code reference: https://makecode.microbit.org/v0/22449-66025-47572-42128
+                  http://bbs.yahboom.com/upload/forum.php?mod=viewthread&tid=1366
 * Inspiration: http://osoyoo.com/2018/09/micro-bit-lesson-using-the-ultrasonic-module/
+               https://www.instructables.com/id/Distance-Sensing-With-the-Microbit-and-Sonar-HC-SR/
 
