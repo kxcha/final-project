@@ -12,11 +12,8 @@ To asemble the device, you will need the following materials: 1 x BBC micro:bit;
 
 ### Installing
 
-See here for instruction to put the code in makecode together: 
-
-```
-Give the example
-```
+See below for instruction to put the code together in makecode: 
+![alt text](https://github.com/kxcha/final-project/blob/master/makecode_instruction.png)
 
 And repeat
 
@@ -27,24 +24,10 @@ until finished
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
-
-Explain how to run the automated tests for this system
+Save the hex file from https://makecode.microbit.org/. Drag the hex file into microbit. 
 
 ### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Place an object (eg. paper box) 1 - 10 inches away from the ultrasonic sensor (note: ultrasonic sensor can detect 0.79 inches minimum). The microservo should vibrate when the object is in this distance range. This is because 
 
 ## Deployment
 
@@ -52,23 +35,14 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Microsoft MakeCode](https://makecode.microbit.org/) - graphical user interface to generate code in Javascript
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Kexin Cha** - *Initial work* - [UltrasonicDistanceSensing]![alt text](https://github.com/kxcha/final-project/blob/master/final_makecode.png)
 
 ## License
 
@@ -76,6 +50,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Code reference 1: https://makecode.microbit.org/v0/22449-66025-47572-42128
+* Code reference 2: http://bbs.yahboom.com/upload/forum.php?mod=viewthread&tid=1366
+* Inspiration: http://osoyoo.com/2018/09/micro-bit-lesson-using-the-ultrasonic-module/
+
