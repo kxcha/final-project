@@ -11,17 +11,11 @@ This project uses https://makecode.microbit.org/ to test and run the code.
 To asemble the device, you will need the following materials: 1 x BBC micro:bit; 1 x Ks0360 Keyestudio Sensor Shield V2 for BBC micro:bit; 1 x HC-SR04 ultrasonic sensor; 1 x 9G SG90 Mini Micro Servo; 1 x 9V battery; 4 x female/female jumper cables
 
 ### Installing
+See below for assemble the materials together:
+https://github.com/kxcha/final-project/blob/master/ultrasonic_distance_sensing.fzz
 
 See below for instruction to put the code together in makecode: 
 ![alt text](https://github.com/kxcha/final-project/blob/master/makecode_instruction.png)
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 Save the hex file from https://makecode.microbit.org/. Drag the hex file into microbit. 
